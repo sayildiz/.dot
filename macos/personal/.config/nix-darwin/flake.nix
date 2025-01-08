@@ -43,6 +43,7 @@
           ];
       homebrew = {
         enable = true;
+        onActivation.cleanup = "uninstall";
         taps = [];
         casks =[
           "aerial"
