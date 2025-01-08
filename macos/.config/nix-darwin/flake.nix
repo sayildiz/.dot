@@ -92,7 +92,14 @@
       };
 
       system.defaults = {
+        NSGlobalDomain.AppleInterfaceStyle = "Dark";
+        NSGlobalDomain.KeyRepeat = 2;
+        NSGlobalDomain."com.apple.swipescrolldirection" = false;
         dock.autohide = true;
+        finder.AppleShowAllFiles = true;
+        finder.AppleShowAllExtensions = true;
+        finder.FXPreferredViewStyle = "clmv";
+        finder._FXShowPosixPathInTitle = true;
       };
 
       # Necessary for using flakes on this system.
