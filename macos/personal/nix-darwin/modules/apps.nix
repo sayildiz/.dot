@@ -29,6 +29,7 @@
       pkgs.pipx
       pkgs.python311
       pkgs.python311Packages.argcomplete
+      pkgs.cargo pkgs.rustc
       ];
   homebrew = {
     enable = true;
