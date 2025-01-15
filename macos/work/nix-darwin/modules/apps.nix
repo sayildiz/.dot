@@ -79,7 +79,6 @@
         "spotify"
         "stats"
         "visual-studio-code"
-        "wezterm"
         "whatsapp"
         ];
     masApps = {

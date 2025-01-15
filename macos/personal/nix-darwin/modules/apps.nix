@@ -94,7 +94,6 @@
         "veracrypt"
         "visual-studio-code"
         "vlc"
-        "wezterm"
         "whatsapp"
         ];
     masApps = {
