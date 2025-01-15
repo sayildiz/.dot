@@ -1,1 +1,10 @@
+# appearance
+font-family = "JetBrains Mono"
+font-size = "21"
+theme = "tokyonight_moon"
+background-opacity = 0.8
+background-blur-radius = 20
+
+
+# keyboard
 macos-option-as-alt = left
