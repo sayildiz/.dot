@@ -30,6 +30,7 @@
       pkgs.python311
       pkgs.python311Packages.argcomplete
       pkgs.cargo pkgs.rustc
+      pkgs.texliveFull
       ];
   homebrew = {
     enable = true;
