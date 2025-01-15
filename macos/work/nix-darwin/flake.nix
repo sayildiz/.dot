@@ -32,7 +32,7 @@
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
     darwinConfigurations."simple" = nix-darwin.lib.darwinSystem {
-      modules = [ configuration ./modules/apps.nix ./modules/system.nix ];
+      modules = [ configuration ./modules/apps.nix ../../shared/system.nix ];
     };
   };
 }
