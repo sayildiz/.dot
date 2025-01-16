@@ -67,7 +67,6 @@
         "hammerspoon"
         "handbrake"
         "iina"
-        "iterm2"
         "jdownloader"
         "jetbrains-toolbox"
         "karabiner-elements"
