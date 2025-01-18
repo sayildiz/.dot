@@ -15,6 +15,6 @@
   - `darwin-rebuild switch --flake "$(readlink -f ~/.config/nix-darwin)#<profile>"`
 
 ## TODO
-- [] use home-manager
-- [] manage other device with NixOS
+- [ ] use home-manager
+- [ ] manage other device with NixOS
 
