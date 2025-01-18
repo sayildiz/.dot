@@ -10,6 +10,11 @@
 
 ## symlink with stow (until i find better solution)
 - install stow
-- `stow config`
+- `stow macos`
 - if symlink is used run this
   - `darwin-rebuild switch --flake "$(readlink -f ~/.config/nix-darwin)#<profile>"`
+
+## TODO
+- [] use home-manager
+- [] manage other device with NixOS
+
