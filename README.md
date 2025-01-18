@@ -4,6 +4,7 @@
 - install nix
 - install nix-darwin
 - install brew
+- copy nix-darwin to .config/
 - run `darwin-rebuild switch --flake ~/.config/nix-darwin#<profile>`
   - replace <profile> with *personal* or *work*
 
