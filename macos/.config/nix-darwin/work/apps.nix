@@ -3,6 +3,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages =
     [ 
+      pkgs.awscli2
       pkgs.bat
       pkgs.blueutil
       pkgs.btop
@@ -11,6 +12,7 @@
       pkgs.fastfetch
       pkgs.fd
       pkgs.fzf
+      pkgs.git-remote-codecommit
       pkgs.lazygit
       pkgs.llvm
       pkgs.luarocks
@@ -84,5 +86,12 @@
     masApps = {
       amphetamine = 937984704;
     };
+  };
+  programs.zsh =  {
+    enable = true;
+    enableFzfCompletion = true;
+    enableSyntaxHighlighting = true;
+    enableCompletion = true;
+    enableBashCompletion = true;
   };
 }
