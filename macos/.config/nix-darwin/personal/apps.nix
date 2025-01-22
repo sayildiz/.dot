@@ -17,6 +17,7 @@
       pkgs.luarocks
       pkgs.mpv
       pkgs.neovim
+      pkgs.nodejs_22
       pkgs.p7zip
       pkgs.pipx
       pkgs.python311
@@ -33,6 +34,7 @@
       pkgs.vim
       pkgs.virtualenv
       pkgs.wget
+      pkgs.yarn
       pkgs.yt-dlp
       pkgs.zig
       ];
@@ -88,6 +90,7 @@
         "postman"
         "qbittorrent"
         "rectangle"
+        "sioyek"
         "spotify"
         "stats"
         "syncthing"
