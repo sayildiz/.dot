@@ -13,6 +13,7 @@
       pkgs.fd
       pkgs.fzf
       pkgs.git-remote-codecommit
+      pkgs.k6
       pkgs.lazygit
       pkgs.llvm
       pkgs.luarocks
@@ -21,6 +22,7 @@
       pkgs.nodejs_23
       pkgs.p7zip
       pkgs.pipx
+      pkgs.postgresql_16
       pkgs.python311
       pkgs.python311Packages.argcomplete
       pkgs.ripgrep
@@ -65,6 +67,7 @@
         "hammerspoon"
         "handbrake"
         "iina"
+        "insomnia"
         "jetbrains-toolbox"
         "karabiner-elements"
         "keepassxc"
