@@ -6,6 +6,7 @@
       pkgs.bat
       pkgs.blueutil
       pkgs.btop
+      pkgs.bun
       pkgs.cargo 
       pkgs.difftastic
       pkgs.fastfetch
@@ -19,6 +20,7 @@
       pkgs.neovim
       pkgs.nodejs_22
       pkgs.p7zip
+      pkgs.pdfgrep
       pkgs.pipx
       pkgs.python311
       pkgs.python311Packages.argcomplete
@@ -31,6 +33,7 @@
       pkgs.tldr
       pkgs.tmux
       pkgs.tree
+      pkgs.uv
       pkgs.vim
       pkgs.virtualenv
       pkgs.wget
@@ -83,6 +86,7 @@
         "mullvadvpn"
         "obs"
         "obsidian"
+        "ollama"
         "openmtp"
         "openscad"
         "pinta"
