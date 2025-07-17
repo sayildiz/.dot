@@ -1,6 +1,7 @@
 {
       system.defaults = {
         NSGlobalDomain = {
+          NSWindowShouldDragOnGesture = true;
           AppleInterfaceStyle = "Dark";
           KeyRepeat = 2;
           "com.apple.swipescrolldirection" = false;

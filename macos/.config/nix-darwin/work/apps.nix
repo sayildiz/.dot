@@ -20,6 +20,7 @@
       pkgs.mpv
       pkgs.neovim
       pkgs.nodejs_23
+      pkgs.oterm
       pkgs.p7zip
       pkgs.pipx
       pkgs.postgresql_16
@@ -33,6 +34,7 @@
       pkgs.tldr
       pkgs.tmux
       pkgs.tree
+      pkgs.uv
       pkgs.vim
       pkgs.virtualenv
       pkgs.wget
@@ -56,7 +58,7 @@
         "corretto@11"
         "cyberduck"
         "dbeaver-community"
-        "docker"
+        "docker-desktop"
         "dotnet-sdk"
         "eqmac"
         "espanso"
@@ -83,6 +85,7 @@
         "session-manager-plugin"
         "spotify"
         "stats"
+        "utm"
         "visual-studio-code"
         "whatsapp"
         ];
