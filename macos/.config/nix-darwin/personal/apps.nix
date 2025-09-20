@@ -9,16 +9,19 @@
       pkgs.bun
       pkgs.cargo 
       pkgs.difftastic
+      pkgs.direnv
       pkgs.fastfetch
       pkgs.fd
       pkgs.ffmpeg
       pkgs.fzf
+      pkgs.jujutsu
       pkgs.lazygit
       pkgs.llvm
       pkgs.luarocks
       pkgs.mpv
       pkgs.neovim
       pkgs.nodejs_22
+      pkgs.nushell
       pkgs.p7zip
       pkgs.pdfgrep
       pkgs.pipx
@@ -40,6 +43,7 @@
       pkgs.yarn
       pkgs.yt-dlp
       pkgs.zig
+      pkgs.zoxide
       ];
   homebrew = {
     enable = true;
@@ -50,7 +54,6 @@
     };
     taps = [];
     casks =[
-        "aerial"
         "android-platform-tools"
         "anki"
         "appcleaner"
@@ -62,7 +65,7 @@
         "cyberduck"
         "discord"
         "disk-inventory-x"
-        "docker"
+        "docker-desktop"
         "enjoyable"
         "eqmac"
         "espanso"
@@ -73,7 +76,7 @@
         "gog-galaxy"
         "google-chrome"
         "hammerspoon"
-        "handbrake"
+        "handbrake-app"
         "iina"
         "jdownloader"
         "jetbrains-toolbox"
@@ -83,10 +86,10 @@
         "keymapp"
         "logseq"
         "macfuse"
-        "mullvadvpn"
+        "mullvad-vpn"
         "obs"
         "obsidian"
-        "ollama"
+        "ollama-app"
         "openmtp"
         "openscad"
         "pinta"
@@ -97,7 +100,7 @@
         "sioyek"
         "spotify"
         "stats"
-        "syncthing"
+        "syncthing-app"
         "thunderbird"
         "upscayl"
         "veracrypt"
