@@ -31,11 +31,25 @@
     # Build darwin flake using:
     # $ darwin-rebuild build --flake .#simple
     darwinConfigurations."work" = nix-darwin.lib.darwinSystem {
-      modules = [ configuration ./shared/system.nix ./work/apps.nix ];
+      modules = [ 
+        configuration
+        ./shared/system.nix
+        ./work/apps.nix
+        {
+          system.primaryUser = "<insert-name>";
+        }
+      ];
     };
 
     darwinConfigurations."personal" = nix-darwin.lib.darwinSystem {
-      modules = [ configuration ./shared/system.nix ./personal/apps.nix ];
+      modules = [ 
+        configuration
+        ./shared/system.nix
+        ./personal/apps.nix
+        {
+          system.primaryUser = "<insert-name>";
+        }
+      ];
     };
   };
 }

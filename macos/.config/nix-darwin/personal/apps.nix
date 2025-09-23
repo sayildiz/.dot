@@ -32,8 +32,7 @@
       pkgs.starship
       pkgs.stow
       pkgs.texliveFull
-      pkgs.thefuck
-      pkgs.tldr
+      pkgs.tealdeer
       pkgs.tmux
       pkgs.tree
       pkgs.uv
