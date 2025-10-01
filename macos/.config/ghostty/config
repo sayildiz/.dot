@@ -1,7 +1,7 @@
 # appearance
 font-family = "JetBrains Mono"
 font-size = "21"
-theme = "tokyonight_moon"
+theme = "TokyoNight Moon"
 background-opacity = 0.8
 background-blur-radius = 20
 
