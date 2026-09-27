@@ -41,9 +41,12 @@
     pkgs.uv
     pkgs.vim
     pkgs.virtualenv
+    pkgs.virt-manager
+    pkgs.virt-viewer
     pkgs.wget
     pkgs.yarn
     pkgs.yt-dlp
+    pkgs.zellij
     pkgs.zig
     pkgs.zoxide
   ];
@@ -104,6 +107,7 @@
       "obs"
       "obsidian"
       "ollama-app"
+      "opencode-desktop"
       "openmtp"
       "openscad"
       "pinta"
@@ -121,6 +125,7 @@
       "visual-studio-code"
       "vlc"
       "whatsapp"
+      "windows-app"
     ];
     masApps = {
       amphetamine = 937984704;

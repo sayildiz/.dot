@@ -47,7 +47,7 @@
         ./shared/system.nix
         ./personal/apps.nix
         {
-          system.primaryUser = "<insert-name>";
+          system.primaryUser = "imcry";
         }
       ];
     };
