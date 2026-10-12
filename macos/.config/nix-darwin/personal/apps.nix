@@ -3,8 +3,8 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
-    pkgs.bat
     pkgs.awscli2
+    pkgs.bat
     pkgs.blueutil
     pkgs.btop
     pkgs.bun
