@@ -4,6 +4,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
     pkgs.bat
+    pkgs.awscli2
     pkgs.blueutil
     pkgs.btop
     pkgs.bun
@@ -13,14 +14,12 @@
     pkgs.fd
     pkgs.ffmpeg
     pkgs.fzf
-    pkgs.gemini-cli
     pkgs.httpie
     pkgs.jujutsu
     pkgs.lazygit
     pkgs.llvm
     pkgs.luarocks
     pkgs.maven
-    pkgs.mpv
     pkgs.neovim
     pkgs.nixfmt
     pkgs.nodejs_22
@@ -70,6 +69,9 @@
       upgrade = true;
     };
     taps = [ ];
+    brews = [
+      "mpv"
+    ];
     casks = [
       "android-platform-tools"
       "anki"
@@ -113,11 +115,11 @@
       "pinta"
       "plex"
       "postman"
-      "qbittorrent"
       "rectangle"
       "sioyek"
       "spotify"
       "stats"
+      "stremio"
       "syncthing-app"
       "thunderbird"
       "upscayl"
