@@ -14,6 +14,7 @@
     pkgs.fd
     pkgs.ffmpeg
     pkgs.fzf
+    pkgs.github-cli
     pkgs.httpie
     pkgs.jujutsu
     pkgs.lazygit
@@ -27,7 +28,7 @@
     pkgs.p7zip
     pkgs.pdfgrep
     pkgs.pipx
-    pkgs.python311
+    pkgs.python315
     pkgs.python311Packages.argcomplete
     pkgs.ripgrep
     pkgs.rustc
@@ -68,8 +69,11 @@
       autoUpdate = true;
       upgrade = true;
     };
-    taps = [ ];
+    taps = [
+      "hashicorp/tap"
+    ];
     brews = [
+      "hashicorp/tap/terraform"
       "mpv"
     ];
     casks = [
@@ -102,6 +106,7 @@
       "karabiner-elements"
       "keepassxc"
       "keka"
+      "kde-connect"
       "keymapp"
       "logseq"
       "macfuse"
